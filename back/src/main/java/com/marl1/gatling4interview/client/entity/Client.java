@@ -15,8 +15,10 @@ import lombok.Setter;
 public class Client {
     private @Id
     @GeneratedValue Long id;
+    private String clientId;
     private String name;
     private String surname;
     private Gender gender;
+    private MembershipType membershipType;
 
 }
