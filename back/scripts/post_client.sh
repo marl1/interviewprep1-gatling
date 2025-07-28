@@ -1,1 +1,1 @@
-curl -d "@$(dirname $0)/client.json" -X POST http://localhost:8080/client -H 'Content-Type: application/json'
+curl -d "@$(dirname $0)/client.json" -X POST http://localhost:8080/client -H 'Content-Type: application/json' -vv
