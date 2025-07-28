@@ -1,0 +1,1 @@
+docker run -d --name mon-conteneur-postgres-et-cowsay -p 5432:5432 --env-file $(dirname $0)/../.env ma-belle-image-postgres-et-cowsay

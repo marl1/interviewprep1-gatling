@@ -1,6 +1,5 @@
 package com.marl1.gatling4interview.client.dto;
 
-import com.marl1.gatling4interview.client.entity.MembershipType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -11,5 +10,5 @@ public class ClientDto {
     private String name;
     private String surname;
     private GenderDto gender;
-    private MembershipType membershipType;
+    private MembershipTypeDto membershipType;
 }

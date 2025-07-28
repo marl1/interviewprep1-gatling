@@ -1,0 +1,7 @@
+{
+  "clientId": "string",
+  "name": "string",
+  "surname": "string",
+  "gender": "M",
+  "membershipType": "FREE_TIER"
+}
