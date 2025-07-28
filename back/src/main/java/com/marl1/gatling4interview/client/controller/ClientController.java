@@ -29,8 +29,8 @@ public class ClientController {
     }
 
     @PostMapping("/client")
-    public Long postClient(@RequestBody ClientDto clientDto) {
+    public ResponseEntity<Long> postClient(@RequestBody ClientDto clientDto) {
         System.out.println("POST CLIENT !");
-        return clientService.postClient(clientDto).getId();
+        return ResponseEntity.ok(clientService.postClient(clientDto).getId());
     }
 }
